@@ -1,0 +1,2203 @@
+<!DOCTYPE html>
+<html lang="id" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muh. Fadnur Fajrin | Mahasiswa Rekayasa Komputer POLNES</title>
+    
+    <!-- Favicon / Tab Icon -->
+    <link rel="icon" type="image/png" href="img/logo/icon.png">
+    <link rel="apple-touch-icon" href="img/logo/icon.png">
+    
+    <!-- Meta Tags SEO & Social Media -->
+    <meta name="description" content="Portofolio Pribadi Muh. Fadnur Fajrin - Mahasiswa Teknologi Rekayasa Komputer di Politeknik Negeri Samarinda (POLNES). Fokus pada sistem embedded IoT, pengembangan perangkat lunak terapan, dan media kampus.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://fadnur.dev/">
+    <meta property="og:title" content="Muh. Fadnur Fajrin | Mahasiswa Rekayasa Komputer POLNES">
+    <meta property="og:description" content="Portofolio Pribadi Muh. Fadnur Fajrin - Mahasiswa Teknologi Rekayasa Komputer di Politeknik Negeri Samarinda (POLNES). Fokus pada sistem embedded IoT, pengembangan perangkat lunak terapan, dan media kampus.">
+    <meta property="og:image" content="img/gue.png">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Muh. Fadnur Fajrin | Mahasiswa Rekayasa Komputer POLNES">
+    <meta property="twitter:description" content="Portofolio Pribadi Muh. Fadnur Fajrin - Mahasiswa Teknologi Rekayasa Komputer di Politeknik Negeri Samarinda (POLNES). Fokus pada sistem embedded IoT, pengembangan perangkat lunak terapan, dan media kampus.">
+    <meta property="twitter:image" content="img/gue.png">
+    
+    <!-- Preload Critical Above-The-Fold Hero Image for Lightning-Fast LCP -->
+    <link rel="preload" as="image" href="img/gue.png" type="image/png">
+
+    <!-- Google Fonts: Poppins, Playfair Display & Plus Jakarta Sans (Streamlined Weights) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome 6 & Devicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+    
+    <link rel="stylesheet" href="style.css?v=20261106_uxresponsive01">
+</head>
+    <body>
+
+    <!-- ======================================================================
+         1. XTRA HEADER (header_1 on the cover)
+            Left: Logo + Uppercase Menu with Blue Pill Bar
+            Right: Circular Social Icons + Blue Pill CTA Button + Theme Switch
+         ====================================================================== -->
+    <header class="xtra-header" id="site_header">
+        <div class="container xtra-header-row">
+            <!-- Left: Logo + Uppercase Navigation Menu -->
+            <div class="xtra-header-left">
+                <a href="#home" class="nav-brand" aria-label="Fdrtech Home">
+                    <img src="img/logo/logo-dark.png" alt="Fdrtech Logo Dark" class="brand-logo-img logo-dark" width="135" height="34" decoding="async">
+                    <img src="img/logo/logo-light.png" alt="Fdrtech Logo Light" class="brand-logo-img logo-light" width="135" height="34" decoding="async">
+                </a>
+
+                <ul class="xtra-nav-menu" id="nav-menu">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#tentang" class="nav-link">About</a></li>
+                    <li><a href="#explore" class="nav-link">Services</a></li>
+                    <li><a href="#proyek" class="nav-link">Projects</a></li>
+                    <li><a href="#pengalaman" class="nav-link">Experience</a></li>
+                    <li><a href="#kontak" class="nav-link">Contact</a></li>
+                    <span class="nav-glider" id="header-nav-glider"></span>
+                    <li class="mobile-theme-row">
+                        <span class="mobile-theme-label">Ganti Tema:</span>
+                        <button class="theme-switch" id="mobile-theme-btn" aria-label="Ganti Tema (Matahari / Bulan)" title="Ganti Tema">
+                            <span class="switch-track">
+                                <span class="switch-icon icon-sun"><i class="fas fa-sun"></i></span>
+                                <span class="switch-icon icon-moon"><i class="fas fa-moon"></i></span>
+                                <span class="switch-thumb">
+                                    <i class="fas fa-moon thumb-icon" id="mobile-theme-icon"></i>
+                                </span>
+                            </span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Right: Clean Action Button + Theme Switch (Rapi, Elegan & Tidak Penuh Sesak) -->
+            <div class="xtra-header-right">
+  
+                <!-- Saklar Tema Bulan & Matahari -->
+                <button class="theme-switch" id="theme-btn" aria-label="Ganti Tema (Matahari / Bulan)" title="Ganti Tema">
+                    <span class="switch-track">
+                        <span class="switch-icon icon-sun"><i class="fas fa-sun"></i></span>
+                        <span class="switch-icon icon-moon"><i class="fas fa-moon"></i></span>
+                        <span class="switch-thumb">
+                            <i class="fas fa-moon thumb-icon" id="theme-icon"></i>
+                        </span>
+                    </span>
+                </button>
+
+                <button class="mobile-menu-btn" id="mobile-menu-toggle" aria-label="Buka Menu Navigasi" aria-expanded="false">
+                    <span class="hamburger-box">
+                        <span class="hamburger-line line-top"></span>
+                        <span class="hamburger-line line-mid"></span>
+                        <span class="hamburger-line line-bot"></span>
+                    </span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ======================================================================
+         2. XTRA HERO BANNER (page_cover / Clean Modern Studio Portrait + Reveal)
+         ====================================================================== -->
+    <section id="home" class="xtra-page-cover">
+        <div class="xtra-slides-wrapper">
+            <!-- Hero Banner: Studio Portrait on Right + Mask Reveal Text on Left -->
+            <div class="xtra-slide active" data-title="Computer Engineering Student">
+                <div class="rs-slide1-studio-bg"></div>
+
+                <!-- Right Studio Portrait (img/gue.png blended into studio background) -->
+                <div class="rs-slide1-person-wrap">
+                    <img src="img/gue.png" alt="Muh. Fadnur Fajrin" class="rs-slide1-person-img" fetchpriority="high" decoding="async">
+                </div>
+
+                <!-- Left Text Layers with Horizontal Mask Reveal -->
+                <div class="container rs-slide1-container">
+                    <div class="rs-slide1-content">
+                        <div class="rs-mask-wrap">
+                            <h3 class="rs-layer-subtitle">MAHASISWA REKAYASA KOMPUTER</h3>
+                        </div>
+
+                        <div class="rs-mask-wrap">
+                            <h1 class="rs-layer-main-title">
+                                BELAJAR &amp;<br>
+                                BERKARYA
+                            </h1>
+                        </div>
+
+                        <div class="rs-mask-wrap">
+                            <p class="rs-layer-desc">
+                                Halo, saya <strong>Muh. Fadnur Fajrin</strong> &mdash; mahasiswa Teknologi Rekayasa Komputer di <strong>Politeknik Negeri Samarinda (POLNES)</strong> yang berfokus mendalami sistem tertanam IoT, pemrograman perangkat lunak, dan media jurnalistik kampus.
+                            </p>
+                        </div>
+
+                        <div class="rs-mask-wrap">
+                            <div class="rs-layer-buttons">
+                                <a href="#proyek" class="btn-primary-pill">
+                                    Lihat Proyek <i class="fas fa-arrow-right"></i>
+                                </a>
+                                <a href="CV.pdf" download class="btn-glass-pill">
+                                    <i class="fas fa-download"></i> Unduh CV
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         3. TOP 3 FEATURE BOXES (#cz_93822, #cz_64570, #cz_48310)
+         ====================================================================== -->
+    <div class="xtra-top-boxes-section">
+        <div class="container">
+            <div class="cz_top_boxes_grid">
+                <!-- Box 1 -->
+                <div class="cz_box_front_inner fade-on-scroll">
+                    <div class="cz_title_icon_before">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="cz_box_title_text">
+                        <h4>SOFTWARE <em>DEVELOPMENT</em></h4>
+                        <span>Python, PHP, SQL &amp; Dasar Web</span>
+                    </div>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="cz_box_front_inner fade-on-scroll">
+                    <div class="cz_title_icon_before">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="cz_box_title_text">
+                        <h4>HARDWARE &amp; <em>IoT</em></h4>
+                        <span>Arduino, Sensor &amp; Solenoid</span>
+                    </div>
+                </div>
+
+                <!-- Box 3 -->
+                <div class="cz_box_front_inner fade-on-scroll">
+                    <div class="cz_title_icon_before">
+                        <i class="fas fa-camera"></i>
+                    </div>
+                    <div class="cz_box_title_text">
+                        <h4>MEDIA &amp; <em>JURNALISTIK</em></h4>
+                        <span>Dokumentasi &amp; UKM Jurnalistik</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         4. "OUR MISSION" STATEMENT + ABOUT ME 2-COLUMN + 4 OVERLAY PROJECT CARDS
+         ====================================================================== -->
+    <section id="tentang" class="section-padding">
+        <div class="container">
+            <!-- Exact Xtra "Our Mission" Centered Statement (#cz_d028878) -->
+            <div class="cz_mission_block fade-on-scroll">
+                <h3 class="cz_mission_heading">Tentang <em>Saya</em></h3>
+                <p class="cz_mission_statement">
+                    Saya <strong>Muh. Fadnur Fajrin</strong>, mahasiswa <span class="cz_underline">Teknologi Rekayasa Komputer</span> di Politeknik Negeri Samarinda. Berfokus mempelajari <span class="cz_underline">perangkat lunak terapan</span>, perakitan sirkuit mikrokontroler, serta aktif mengasah kepemimpinan sebagai <span class="cz_underline">Wakil Ketua Umum</span> UKM Jurnalistik POLNES.
+                </p>
+                <h4 class="cz_mission_sub">Belajar dengan tekun, membangun karya nyata, dan berkontribusi melalui teknologi terapan.</h4>
+            </div>
+
+            <!-- 2-Column About Story & Tools Stack -->
+            <div class="about-two-col-layout">
+                <!-- Kolom Kiri: Story -->
+                <div class="about-story-col fade-on-scroll">
+                    <span class="overline-label">PROFIL MAHASISWA</span>
+                    <h3 class="about-col-headline">Dedikasi Belajar &amp; <em>Organisasi</em></h3>
+
+                    <div class="about-story-text">
+                        <p>
+                            Ketertarikan saya pada dunia teknologi berawal dari rasa ingin tahu bagaimana perangkat keras elektronika dan baris kode pemrograman dapat berkolaborasi memecahkan masalah sehari-hari.
+                        </p>
+                        <p>
+                            Di bangku perkuliahan POLNES, saya mempraktikkan dasar-dasar pemrograman web, konfigurasi jaringan komputer, hingga perakitan purwarupa sistem tertanam (embedded system) menggunakan mikrokontroler dan modul sensor.
+                        </p>
+                        <p>
+                            Selain bidang teknik, saya aktif mengasah kepemimpinan, kerja sama tim, dan komunikasi publik dengan mengemban amanah sebagai <strong>Wakil Ketua Umum UKM Jurnalistik POLNES (2026/2027)</strong>.
+                        </p>
+                    </div>
+
+                    <div class="about-action-buttons">
+                        <a href="#proyek" class="btn-primary-pill">
+                            <i class="fas fa-folder-open"></i> Lihat Proyek
+                        </a>
+                        <a href="CV.pdf" download class="btn-glass-pill">
+                            <i class="fas fa-download"></i> Unduh CV (PDF)
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Kolom Kanan: Tools & Stack -->
+                <div class="about-stack-col fade-on-scroll">
+                    <span class="overline-label">KEAHLIAN &amp; ALAT BANTU</span>
+                    <h3 class="about-col-headline">Tools &amp; Bahasa yang <em>Dipelajari</em></h3>
+                    <p class="about-stack-intro">Kombinasi materi perkuliahan teknik komputer, praktik laboratorium elektronika, serta media komunikasi kampus.</p>
+
+                    <div class="stack-rows-container">
+                        <div class="stack-card-row">
+                            <div class="stack-row-head">
+                                <span class="stack-category-name">Perangkat Lunak &amp; Web</span>
+                                <span class="stack-level-pill">Dasar &amp; Menengah</span>
+                            </div>
+                            <div class="stack-chips-group">
+                                <span class="stack-chip"><i class="devicon-python-plain colored"></i> Python</span>
+                                <span class="stack-chip"><i class="devicon-php-plain colored"></i> PHP</span>
+                                <span class="stack-chip"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+                                <span class="stack-chip"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+                                <span class="stack-chip"><i class="devicon-html5-plain colored"></i> HTML/CSS</span>
+                            </div>
+                        </div>
+
+                        <div class="stack-card-row">
+                            <div class="stack-row-head">
+                                <span class="stack-category-name">Hardware &amp; IoT</span>
+                                <span class="stack-level-pill">Praktik Lab</span>
+                            </div>
+                            <div class="stack-chips-group">
+                                <span class="stack-chip"><i class="fas fa-microchip"></i> Arduino Uno</span>
+                                <span class="stack-chip"><i class="fas fa-wave-square"></i> Proteus CAD</span>
+                                <span class="stack-chip"><i class="fas fa-bolt"></i> NI Multisim</span>
+                                <span class="stack-chip"><i class="fas fa-memory"></i> Modul Sensor</span>
+                            </div>
+                        </div>
+
+                        <div class="stack-card-row">
+                            <div class="stack-row-head">
+                                <span class="stack-category-name">Jaringan &amp; Sistem</span>
+                                <span class="stack-level-pill">Tersertifikasi</span>
+                            </div>
+                            <div class="stack-chips-group">
+                                <span class="stack-chip"><i class="fas fa-network-wired"></i> Cisco IOS</span>
+                                <span class="stack-chip"><i class="fas fa-route"></i> Routing &amp; Switching</span>
+                                <span class="stack-chip"><i class="fas fa-sitemap"></i> Subnetting</span>
+                                <span class="stack-chip"><i class="fas fa-terminal"></i> Linux CLI</span>
+                            </div>
+                        </div>
+
+                        <div class="stack-card-row">
+                            <div class="stack-row-head">
+                                <span class="stack-category-name">Media &amp; Publikasi</span>
+                                <span class="stack-level-pill">Aktif Organisasi</span>
+                            </div>
+                            <div class="stack-chips-group">
+                                <span class="stack-chip"><i class="devicon-figma-plain colored"></i> Figma</span>
+                                <span class="stack-chip"><i class="devicon-canva-original colored"></i> Canva</span>
+                                <span class="stack-chip"><i class="fas fa-camera"></i> Adobe Lightroom</span>
+                                <span class="stack-chip"><i class="fas fa-pen-fancy"></i> Penulisan Berita</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         4. SERVICES / EKSPLORASI & BIDANG MINAT (#explore)
+            Full-Width Stretched #4d61ff Section with Floating Particles
+         ====================================================================== -->
+    <section id="explore" class="xtra-blue-particles-section">
+        <canvas id="xtra-particles"></canvas>
+        <div class="container">
+            <div class="xtra-blue-header fade-on-scroll">
+                <h3>Eksplorasi &amp; <em>Bidang Minat</em></h3>
+                <p style="color: rgba(255,255,255,0.85); font-size: 14.5px; margin-top: 6px; font-weight: 500;">Materi studi dan kompetensi teknis yang saya pelajari dan tekuni selama perkuliahan sebagai fondasi perancangan proyek terapan.</p>
+            </div>
+
+            <div class="cz_services_6_grid">
+                <!-- Service 1 -->
+                <div class="cz_service_item fade-on-scroll">
+                    <div class="cz_service_icon"><i class="fas fa-laptop-code"></i></div>
+                    <div class="cz_service_texts">
+                        <h4>Pemrograman <em>Dasar &amp; Web</em></h4>
+                        <p>Dasar Python, PHP, MySQL, &amp; antarmuka web responsif</p>
+                    </div>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="cz_service_item fade-on-scroll">
+                    <div class="cz_service_icon"><i class="fas fa-microchip"></i></div>
+                    <div class="cz_service_texts">
+                        <h4>Hardware &amp; <em>Sistem Tertanam</em></h4>
+                        <p>Arduino Uno, modul sensor IR, relay, &amp; solenoid</p>
+                    </div>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="cz_service_item fade-on-scroll">
+                    <div class="cz_service_icon"><i class="fas fa-network-wired"></i></div>
+                    <div class="cz_service_texts">
+                        <h4>Jaringan <em>Komputer</em></h4>
+                        <p>Cisco IOS, routing, switching, &amp; subnetting IPv4/IPv6</p>
+                    </div>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="cz_service_item fade-on-scroll">
+                    <div class="cz_service_icon"><i class="fas fa-shield-halved"></i></div>
+                    <div class="cz_service_texts">
+                        <h4>Fondasi <em>Keamanan Siber</em></h4>
+                        <p>Linux CLI, konsep dasar security, &amp; kompetisi CTF</p>
+                    </div>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="cz_service_item fade-on-scroll">
+                    <div class="cz_service_icon"><i class="fas fa-pen-ruler"></i></div>
+                    <div class="cz_service_texts">
+                        <h4>Desain <em>Grafis &amp; Wireframe</em></h4>
+                        <p>Penyusunan tata letak publikasi media &amp; wireframe Figma</p>
+                    </div>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="cz_service_item fade-on-scroll">
+                    <div class="cz_service_icon"><i class="fas fa-camera"></i></div>
+                    <div class="cz_service_texts">
+                        <h4>Jurnalistik &amp; <em>Komunikasi</em></h4>
+                        <p>Dokumentasi foto lapangan &amp; kepanitiaan media kampus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         5. FEATURED PROJECTS (#proyek)
+            Karya & Implementasi Terapan Nyata
+         ====================================================================== -->
+    <section id="proyek" class="section-padding">
+        <div class="container">
+            <div class="section-header fade-on-scroll">
+                <h2 class="section-main-title">Karya &amp; <em>Proyek Terapan</em></h2>
+                <p class="section-subtitle">Implementasi nyata dari kompetensi rekayasa perangkat lunak, sistem tertanam, dan media komunikasi yang telah saya selesaikan.</p>
+            </div>
+
+            <div class="cz_overlay_cards_grid">
+
+                <!-- Card 1: Prototype Smart Infrared -->
+                <div class="cz_overlay_card fade-on-scroll" style="background-image: url('img/project/1793926998_keran_otomatis_3.jpeg');">
+                    <div class="cz_overlay_card_content">
+                        <h3>Prototype <em>Smart Infrared</em><br>Faucet Hardware</h3>
+                        <p>Prototipe sirkuit keran air otomatis nirsentuh berbasis sensor inframerah optik dan solenoid valve 12V.</p>
+                        <a href="project-smart-infrared.html" class="cz_btn_txt_move_up">
+                            <span class="cz_btn_txt"><i class="fas fa-angle-right"></i> <strong>lihat detail proyek</strong></span>
+                            <b class="cz_btn_onhover"><i class="fas fa-angle-right"></i> <strong>LIHAT DETAIL PROYEK</strong></b>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 2: Pekan Jurnalistik -->
+                <div class="cz_overlay_card fade-on-scroll" style="background-image: url('img/project/1793931099_Pekan.jpg');">
+                    <div class="cz_overlay_card_content">
+                        <h3>Pekan <em>Jurnalistik</em><br>POLNES 2026</h3>
+                        <p>Dokumentasi kepanitiaan, desain publikasi media, dan peliputan kegiatan jurnalistik mahasiswa POLNES.</p>
+                        <a href="project-pekan-jurnalistik.html" class="cz_btn_txt_move_up">
+                            <span class="cz_btn_txt"><i class="fas fa-angle-right"></i> <strong>lihat dokumentasi</strong></span>
+                            <b class="cz_btn_onhover"><i class="fas fa-angle-right"></i> <strong>LIHAT DOKUMENTASI</strong></b>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Card 3: Curriculum Vitae -->
+                <div class="cz_overlay_card fade-on-scroll" style="background-image: url('img/gue.png');">
+                    <div class="cz_overlay_card_content">
+                        <h3>Curriculum <em>Vitae</em><br>Profil Mahasiswa</h3>
+                        <p>Dokumen riwayat akademik, keahlian teknis, sertifikasi resmi, dan pengalaman organisasi mahasiswa.</p>
+                        <a href="CV.pdf" download class="cz_btn_txt_move_up">
+                            <span class="cz_btn_txt"><i class="fas fa-angle-right"></i> <strong>unduh cv (pdf)</strong></span>
+                            <b class="cz_btn_onhover"><i class="fas fa-angle-right"></i> <strong>UNDUH CV (PDF)</strong></b>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         6. TIMELINE PENDIDIKAN & PENGALAMAN (#pengalaman)
+         ====================================================================== -->
+    <section id="pengalaman" class="section-padding">
+        <div class="container">
+            <div class="section-header fade-on-scroll">
+                <h2 class="section-main-title">Pendidikan &amp; <em>Pengalaman</em></h2>
+                <p class="section-subtitle">Rekam jejak studi formal dan keikutsertaan organisasi kemahasiswaan.</p>
+            </div>
+
+            <!-- Interactive Accordion Timeline -->
+            <div class="timeline-container fade-on-scroll">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content active">
+                        <div class="timeline-header" onclick="toggleTimeline(this)">
+                            <div>
+                                <span class="timeline-date">2025 - Sekarang</span>
+                                <h3>Teknologi Rekayasa Komputer</h3>
+                                <p class="timeline-sub">Politeknik Negeri Samarinda (POLNES)</p>
+                            </div>
+                            <i class="fas fa-chevron-down toggle-icon"></i>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Fokus mendalami rekayasa perangkat lunak, sistem arsitektur jaringan, dan Internet of Things (IoT). Aktif dalam berbagai proyek perancangan teknologi terapan. Dipercaya mengemban amanah sebagai <strong>Wakil Ketua Umum UKM Jurnalistik POLNES</strong> periode 2026/2027.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header" onclick="toggleTimeline(this)">
+                            <div>
+                                <span class="timeline-date">2022 - 2025</span>
+                                <h3>Pendidikan SMA</h3>
+                                <p class="timeline-sub">SMAN 1 Anggana</p>
+                            </div>
+                            <i class="fas fa-chevron-down toggle-icon"></i>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Menyelesaikan pendidikan menengah atas dengan kurikulum merdeka. Aktif memimpin regu ekstrakurikuler Pramuka yang melatih ketahanan fisik, kerja sama tim, integritas, dan dasar kepemimpinan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         8. ANIMATED COUNTERS (#cz_36510) + INTERACTIVE CERTIFICATE CAROUSEL (#cz_87246)
+         ====================================================================== -->
+    <section id="sertifikasi" class="section-padding">
+        <div class="container">
+            <div class="section-header fade-on-scroll">
+                <h2 class="section-main-title">Sertifikasi &amp; <em>Prestasi</em></h2>
+                <p class="section-subtitle">Pengakuan kompetensi resmi di bidang jaringan komputer, administrasi Linux, keamanan siber, sains, dan jurnalistik mahasiswa — dilengkapi pratinjau dokumen asli.</p>
+            </div>
+
+            <!-- 4 Animated Number Counters -->
+            <div class="cz_counters_grid fade-on-scroll" id="counters-section">
+                <div class="cz_counter_item">
+                    <div class="cz_counter_num_wrap">
+                        <span class="cz_counter_val" data-target="3">0</span>
+                    </div>
+                    <span class="cz_counter_after">Fokus Bidang Minat</span>
+                </div>
+
+                <div class="cz_counter_item">
+                    <div class="cz_counter_num_wrap">
+                        <span class="cz_counter_val" data-target="3">0</span>
+                    </div>
+                    <span class="cz_counter_after">Proyek &amp; Karya Terapan</span>
+                </div>
+
+                <div class="cz_counter_item">
+                    <div class="cz_counter_num_wrap">
+                        <span class="cz_counter_val" data-target="9">0</span>
+                    </div>
+                    <span class="cz_counter_after">Sertifikasi &amp; Penghargaan</span>
+                </div>
+
+                <div class="cz_counter_item">
+                    <div class="cz_counter_num_wrap">
+                        <span class="cz_counter_val" data-target="2025">0</span>
+                    </div>
+                    <span class="cz_counter_after">Mahasiswa POLNES Angkatan</span>
+                </div>
+            </div>
+                <div class="cz_carousel_outer" id="cert-carousel-outer">
+                    <!-- Optional Floating Side Navigation Arrows (Hanya sebagai pembantu opsional di Desktop) -->
+                    <button type="button" class="cz_slick_arrow cert_floating_arrow cert_arrow_prev" id="cert-prev" aria-label="Sertifikat Sebelumnya" title="Sebelumnya (Opsional)">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+
+                    <div class="cz_carousel_viewport" id="cert-carousel-viewport">
+                        <div class="cz_carousel_stage" id="cert-carousel-stage">
+                            <!-- Slide 0: Cisco CCNA: Intro to Networks -->
+                            <article class="cz_carousel_slide is-center" data-index="0"
+                                data-title="CCNA: Introduction to Networks"
+                                data-issuer="Cisco Networking Academy"
+                                data-date="19 Juni 2026"
+                                data-category="Network Engineering"
+                                data-credential="Verified Student Level Credential (QR Verified)"
+                                data-preview="sertif/preview/ccna-cisco.jpg"
+                                data-file="sertif/CCNA-Cisco.pdf"
+                                data-filetype="PDF"
+                                data-verify-url=""
+                                data-desc="Sertifikasi resmi Cisco Networking Academy atas penguasaan arsitektur jaringan, konfigurasi switch &amp; router Cisco IOS, model OSI/TCP-IP, pengalamatan IPv4/IPv6, serta keamanan jaringan dasar.">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat CCNA: Introduction to Networks">
+                                    <img src="sertif/preview/ccna-cisco.jpg" alt="Sertifikat CCNA: Introduction to Networks - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-file-pdf"></i> PDF</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fas fa-network-wired"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Network Engineering • 2026</span>
+                                            <div class="cz_testimonials_name">Cisco CCNA: Intro to Networks</div>
+                                            <div class="cz_testimonials_subname">Cisco Networking Academy</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>Verified Cisco NetAcad Credential</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Sertifikasi konfigurasi switch &amp; router Cisco IOS, protokol OSI/Ethernet, subnetting IPv4/IPv6, dan keamanan jaringan.
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="0">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Slide 1: Google Cybersecurity -->
+                            <article class="cz_carousel_slide " data-index="1"
+                                data-title="Google Cybersecurity Professional Certificate"
+                                data-issuer="Google &amp; Coursera"
+                                data-date="30 Oktober 2026"
+                                data-category="Cybersecurity"
+                                data-credential="ID: T4PQFVWB7WAM"
+                                data-preview="sertif/preview/coursera-cybersecurity.jpg"
+                                data-file="sertif/Coursera - Cybersecurity.pdf"
+                                data-filetype="PDF"
+                                data-verify-url="https://coursera.org/verify/professional-cert/T4PQFVWB7WAM"
+                                data-desc="Sertifikat Profesional 9 kursus resmi dari Google melalui Coursera, mencakup keamanan jaringan, Linux, SQL, SIEM tools, Intrusion Detection (IDS), Python scripting untuk cybersecurity, serta manajemen risiko dan kepatuhan siber.">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat Google Cybersecurity Professional Certificate">
+                                    <img src="sertif/preview/coursera-cybersecurity.jpg" alt="Sertifikat Google Cybersecurity Professional Certificate - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-file-pdf"></i> PDF</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fas fa-shield-halved"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Cybersecurity • 9 Courses</span>
+                                            <div class="cz_testimonials_name">Google Cybersecurity</div>
+                                            <div class="cz_testimonials_subname">Google &amp; Coursera</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>ID: T4PQFVWB7WAM (Terverifikasi)</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Penyelesaian 9 kursus keamanan siber Google: Python, Linux, SQL, SIEM tools, Intrusion Detection (IDS), &amp; mitigasi ancaman.
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="1">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Slide 2: Red Hat Linux (RH104) -->
+                            <article class="cz_carousel_slide " data-index="2"
+                                data-title="Red Hat System Administration I (RH104)"
+                                data-issuer="Red Hat Training &amp; Academy"
+                                data-date="26 September 2026"
+                                data-category="Linux System Admin"
+                                data-credential="RH104-RHA Ver. 9.1 (16 Jam Pelatihan)"
+                                data-preview="sertif/preview/redhat-linux.jpg"
+                                data-file="sertif/redhat.pdf"
+                                data-filetype="PDF"
+                                data-verify-url=""
+                                data-desc="Sertifikat kehadiran resmi Red Hat Training &amp; Academy untuk pelatihan intensif Red Hat System Administration I (RH104) berbasis Red Hat Enterprise Linux 9.1 dengan durasi 16 jam penguasaan CLI, sistem file, dan manajemen proses.">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat Red Hat System Administration I (RH104)">
+                                    <img src="sertif/preview/redhat-linux.jpg" alt="Sertifikat Red Hat System Administration I (RH104) - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-file-pdf"></i> PDF</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fab fa-redhat"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Linux System Admin • RHEL 9.1</span>
+                                            <div class="cz_testimonials_name">Red Hat Linux (RH104)</div>
+                                            <div class="cz_testimonials_subname">Red Hat Training &amp; Academy</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>RH104-RHA Ver. 9.1 • 16 Hours</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Sertifikasi Red Hat Enterprise Linux 9.1 mencakup penguasaan terminal shell, arsitektur sistem file, dan administrasi server dasar.
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="2">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Slide 3: Medali Perak Matematika -->
+                            <article class="cz_carousel_slide " data-index="3"
+                                data-title="Medali Perak Bidang Matematika — KS2N 2024"
+                                data-issuer="KS2N Nasional - PRESMANESIA"
+                                data-date="15 September 2024"
+                                data-category="Olimpiade Nasional"
+                                data-credential="No: 1492424/PRESMANESIA/KS2N-P/IX/2024"
+                                data-preview="sertif/preview/perak-matematika-ks2n-2024.png"
+                                data-file="sertif/Perak_Matematika - KS2N 2024.pdf"
+                                data-filetype="PDF"
+                                data-verify-url=""
+                                data-desc="Piagam Penghargaan resmi Presmanesia atas pencapaian Medali Perak dengan Predikat A dalam Kompetisi Sains Siswa Nasional (KS2N) 2024 bidang Matematika tingkat SMA/SMK/MA sederajat.">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat Medali Perak Bidang Matematika — KS2N 2024">
+                                    <img src="sertif/preview/perak-matematika-ks2n-2024.png" alt="Sertifikat Medali Perak Bidang Matematika — KS2N 2024 - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-file-pdf"></i> PDF</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fas fa-award"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Olimpiade Nasional • Predikat A</span>
+                                            <div class="cz_testimonials_name">Medali Perak Matematika</div>
+                                            <div class="cz_testimonials_subname">KS2N Nasional - PRESMANESIA</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span># 1492424/PRESMANESIA/KS2N-P/IX/2024</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Peraih Medali Perak (Predikat A) bidang Matematika tingkat nasional pada Kompetisi Sains Siswa Nasional (KS2N) 2024.
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="3">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Slide 4: DevFest Vol.5 Hackathon -->
+                            <article class="cz_carousel_slide " data-index="4"
+                                data-title="DevFest Vol.5 National Hackathon — Finalist &amp; Participant"
+                                data-issuer="Institut Teknologi Kalimantan (ITK)"
+                                data-date="5 Oktober 2026"
+                                data-category="Software Hackathon"
+                                data-credential="No: 046/K/PAN-DF5/HMTI-ITK/X/2026"
+                                data-preview="sertif/preview/devfest-vol5-itk.jpg"
+                                data-file="sertif/peserta devest Vol.5.pdf"
+                                data-filetype="PDF"
+                                data-verify-url=""
+                                data-desc="Sertifikat partisipasi kompetisi hackathon nasional DevFest Vol.5 yang diselenggarakan oleh Himpunan Mahasiswa Teknologi Informasi Institut Teknologi Kalimantan (ITK), merancang prototipe aplikasi terapan inovatif.">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat DevFest Vol.5 National Hackathon — Finalist &amp; Participant">
+                                    <img src="sertif/preview/devfest-vol5-itk.jpg" alt="Sertifikat DevFest Vol.5 National Hackathon — Finalist &amp; Participant - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-file-pdf"></i> PDF</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fas fa-laptop-code"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Software Hackathon • Tingkat Nasional</span>
+                                            <div class="cz_testimonials_name">DevFest Vol.5 Hackathon</div>
+                                            <div class="cz_testimonials_subname">Institut Teknologi Kalimantan (ITK)</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>No: 046/K/PAN-DF5/HMTI-ITK/X/2026</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Peserta kompetisi hackathon pengembangan solusi perangkat lunak inovatif tingkat mahasiswa nasional di ITK.
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="4">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Slide 5: Hackathon PENS 2026 -->
+                            <article class="cz_carousel_slide " data-index="5"
+                                data-title="Hackathon PENS 2026 — Peserta Kompetisi Inovasi Teknologi"
+                                data-issuer="Politeknik Elektronika Negeri Surabaya (PENS)"
+                                data-date="4 Oktober 2026"
+                                data-category="Technology Competition"
+                                data-credential="No: 073/HACKATHON-PENS/X/2026"
+                                data-preview="sertif/preview/hackathon-pens-2026.jpg"
+                                data-file="sertif/partisipasi hackathon PENS 2026.pdf"
+                                data-filetype="PDF"
+                                data-verify-url=""
+                                data-desc="Sertifikat keikutsertaan kompetisi Hackathon tingkat nasional di Politeknik Elektronika Negeri Surabaya (PENS), berfokus pada kolaborasi perancangan solusi rekayasa teknologi, embedded hardware, dan software terapan.">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat Hackathon PENS 2026 — Peserta Kompetisi Inovasi Teknologi">
+                                    <img src="sertif/preview/hackathon-pens-2026.jpg" alt="Sertifikat Hackathon PENS 2026 — Peserta Kompetisi Inovasi Teknologi - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-file-pdf"></i> PDF</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fas fa-microchip"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Technology Competition • PENS Surabaya</span>
+                                            <div class="cz_testimonials_name">Hackathon PENS 2026</div>
+                                            <div class="cz_testimonials_subname">Politeknik Elektronika Negeri Surabaya (PENS)</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>No: 073/HACKATHON-PENS/X/2026</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Peserta kompetisi hackathon rekayasa teknologi dan purwarupa perangkat keras cerdas di PENS Surabaya.
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="5">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Slide 6: Jurnalistik Koran Kaltim -->
+                            <article class="cz_carousel_slide " data-index="6"
+                                data-title="Pelatihan Jurnalistik Mahasiswa — HUT ke-20 Koran Kaltim"
+                                data-issuer="SKH Koran Kaltim"
+                                data-date="22 November 2026"
+                                data-category="Media &amp; Journalism"
+                                data-credential="Sertifikat Resmi Pelatihan Jurnalistik 2026"
+                                data-preview="sertif/pelatihan jurnalistik koran kaltim.jpg"
+                                data-file="sertif/pelatihan jurnalistik koran kaltim.jpg"
+                                data-filetype="JPG"
+                                data-verify-url=""
+                                data-desc="Sertifikat resmi keikutsertaan Pelatihan Jurnalistik Mahasiswa dalam rangka HUT ke-20 Surat Kabar Harian (SKH) Koran Kaltim, mendalami kode etik pers, reportase investigatif lapangan, dan teknik penulisan feature media cetak &amp; online.">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat Pelatihan Jurnalistik Mahasiswa — HUT ke-20 Koran Kaltim">
+                                    <img src="sertif/pelatihan jurnalistik koran kaltim.jpg" alt="Sertifikat Pelatihan Jurnalistik Mahasiswa — HUT ke-20 Koran Kaltim - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-image"></i> Gambar</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fas fa-newspaper"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Media &amp; Journalism • Pelatihan Redaksi</span>
+                                            <div class="cz_testimonials_name">Jurnalistik Koran Kaltim</div>
+                                            <div class="cz_testimonials_subname">SKH Koran Kaltim</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>HUT ke-20 Harian Koran Kaltim</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Pelatihan jurnalistik mahasiswa oleh redaksi Surat Kabar Harian Koran Kaltim meliputi teknik peliputan &amp; penulisan berita.
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="6">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Slide 7: Public Speaking Mastery -->
+                            <article class="cz_carousel_slide " data-index="7"
+                                data-title="Sertifikat Kompetensi Public Speaking — Mega Zoominar"
+                                data-issuer="PT. Bicara Official Indonesia"
+                                data-date="13 &amp; 20 Oktober 2024"
+                                data-category="Communication &amp; Leadership"
+                                data-credential="No: 006/MZ/DPP/BOI/X/2024 (Predikat: Berkompeten)"
+                                data-preview="sertif/E-SERTIFIKAT PUBLIC SPEAKING.png"
+                                data-file="sertif/E-SERTIFIKAT PUBLIC SPEAKING.png"
+                                data-filetype="PNG"
+                                data-verify-url=""
+                                data-desc="Sertifikat kelulusan kompetensi dengan predikat BERKOMPETEN (Nilai Baik pada seluruh indikator Prepare, Praktis, dan Performe — 8 Jam Pelajaran) oleh Lembaga Pelatihan PT. Bicara Official Indonesia.">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat Sertifikat Kompetensi Public Speaking — Mega Zoominar">
+                                    <img src="sertif/E-SERTIFIKAT PUBLIC SPEAKING.png" alt="Sertifikat Sertifikat Kompetensi Public Speaking — Mega Zoominar - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-image"></i> Gambar</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fas fa-microphone-lines"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Communication &amp; Leadership • 8 JPL</span>
+                                            <div class="cz_testimonials_name">Public Speaking Mastery</div>
+                                            <div class="cz_testimonials_subname">PT. Bicara Official Indonesia</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>006/MZ/DPP/BOI/X/2024 • Berkompeten</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Predikat Berkompeten (Nilai Baik pada materi Prepare, Praktis, &amp; Performe) dalam pelatihan intensif komunikasi publik.
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="7">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                            <!-- Slide 8: Participant CTF - PNJ -->
+                            <article class="cz_carousel_slide " data-index="8"
+                                data-title="Certificate Participant Cyber Security Competition"
+                                data-issuer="HIMATIK Politeknik Negeri Jakarta"
+                                data-date="2026"
+                                data-category="Cyber Secyrity"
+                                data-credential="731/PL3.13/SRt/ITECHNO CUP/HIMATIK PNJ/IX2026"
+                                data-preview="sertif/preview/1793603434_preview_c013ccf0-3334-4717-9f2.jpg"
+                                data-file="sertif/1793603434_c013ccf0-3334-4717-9f2c-b21ef3.pdf"
+                                data-filetype="PDF Resmi"
+                                data-verify-url=""
+                                data-desc="Sertifikat resmi atas kepesertaan dalam lomba lomba bidang Cyber Security kategori mahasiswa tingkat nasional dengan metode lomba CTF Jeopardy">
+                                <div class="cert_preview_frame" role="button" tabindex="0" aria-label="Buka mode preview sertifikat Certificate Participant Cyber Security Competition">
+                                    <img src="sertif/preview/1793603434_preview_c013ccf0-3334-4717-9f2.jpg" alt="Sertifikat Certificate Participant Cyber Security Competition - Muh. Fadnur Fajrin" loading="lazy" draggable="false">
+                                    <span class="cert_verified_badge"><i class="fas fa-circle-check"></i> Bukti Asli</span>
+                                    <span class="cert_format_badge"><i class="fas fa-file-pdf"></i> PDF</span>
+                                    <div class="cert_preview_overlay">
+                                        <span class="cert_zoom_pill"><i class="fas fa-expand"></i> Buka Mode Preview</span>
+                                    </div>
+                                </div>
+                                <div class="cert_card_body">
+                                    <div class="cz_testimonials_meta">
+                                        <div class="cz_testimonials_avatar"><i class="fas fa-shield-halved"></i></div>
+                                        <div class="cz_testimonials_headings">
+                                            <span class="cert_category_label">Cyber Secyrity</span>
+                                            <div class="cz_testimonials_name">Participant CTF - PNJ</div>
+                                            <div class="cz_testimonials_subname">HIMATIK Politeknik Negeri Jakarta</div>
+                                        </div>
+                                    </div>
+                                    <div class="cert_credential_tag" title="Status Kredensial">
+                                        <i class="fas fa-qrcode"></i>
+                                        <span>ITECHNO CUP 2026</span>
+                                    </div>
+                                    <p class="cz_carousel_quote">
+                                        Peserta lomba bidang Cyber Security kategori mahasiswa tingkat nasional
+                                    </p>
+                                    <div class="cert_card_actions">
+                                        <button type="button" class="cert_btn_preview" data-open-cert="8">
+                                            <i class="fas fa-expand"></i> Preview Bukti
+                                        </button>
+                                    </div>
+                                </div>
+                            </article>
+
+                        </div>
+                    </div>
+
+                    <!-- Optional Floating Side Navigation Arrow Next -->
+                    <button type="button" class="cz_slick_arrow cert_floating_arrow cert_arrow_next" id="cert-next" aria-label="Sertifikat Selanjutnya" title="Selanjutnya (Opsional)">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+
+                <!-- Minimal Bottom Indicator (Dots Only) -->
+                <div class="cz_carousel_nav">
+                    <div class="cz_slick_dots" id="cert-dots">
+                        <span class="cz_slick_dot active" data-index="0" title="Cisco CCNA: Intro to Networks"></span>
+                        <span class="cz_slick_dot" data-index="1" title="Google Cybersecurity"></span>
+                        <span class="cz_slick_dot" data-index="2" title="Red Hat Linux (RH104)"></span>
+                        <span class="cz_slick_dot" data-index="3" title="Medali Perak Matematika"></span>
+                        <span class="cz_slick_dot" data-index="4" title="DevFest Vol.5 Hackathon"></span>
+                        <span class="cz_slick_dot" data-index="5" title="Hackathon PENS 2026"></span>
+                        <span class="cz_slick_dot" data-index="6" title="Jurnalistik Koran Kaltim"></span>
+                        <span class="cz_slick_dot" data-index="7" title="Public Speaking Mastery"></span>
+                        <span class="cz_slick_dot" data-index="8" title="Participant CTF - PNJ"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         10. CONTACT SECTION (#kontak)
+         ====================================================================== -->
+    <section id="kontak" class="section-padding">
+        <div class="container">
+            <div class="section-header fade-on-scroll">
+                <h2 class="section-main-title">Hubungi <em>Saya</em></h2>
+                <p class="section-subtitle">Punya pertanyaan, ajakan kolaborasi akademik, atau ingin berdiskusi seputar teknologi?</p>
+            </div>
+
+            <div class="contact-box-wrapper fade-on-scroll">
+                <form id="contactForm" class="contact-form-modern">
+                    <div class="input-row-grid">
+                        <div class="floating-input-group">
+                            <input type="text" id="name" name="name" required placeholder=" " class="input-field">
+                            <label for="name" class="floating-label">Nama Lengkap (*)</label>
+                        </div>
+                        <div class="floating-input-group">
+                            <input type="email" id="email" name="email" required placeholder=" " class="input-field">
+                            <label for="email" class="floating-label">Alamat Email (*)</label>
+                        </div>
+                    </div>
+
+                    <div class="input-row-grid">
+                        <div class="floating-input-group">
+                            <input type="tel" id="whatsapp" name="whatsapp" required placeholder=" " class="input-field" pattern="[0-9+ \-]{9,20}">
+                            <label for="whatsapp" class="floating-label">Nomor WhatsApp Aktif (*)</label>
+                        </div>
+                        <div class="floating-input-group select-group">
+                            <select id="purpose" name="purpose" required class="input-field select-field">
+                                <option value="" disabled selected>Tujuan Menghubungi (*)</option>
+                                <option value="Kerjasama Proyek & Bisnis">Kerjasama Proyek &amp; Bisnis</option>
+                                <option value="Diskusi Hardware & IoT System">Diskusi Hardware &amp; IoT System</option>
+                                <option value="Konsultasi IT & Pengembangan Web">Konsultasi IT &amp; Pengembangan Web</option>
+                                <option value="Kolaborasi Akademik / Kampus">Kolaborasi Akademik / Kampus</option>
+                                <option value="Liputan / Media">Liputan / Media</option>
+                                <option value="Pertanyaan Umum / Lainnya">Pertanyaan Umum / Lainnya</option>
+                            </select>
+                            <i class="fas fa-chevron-down select-chevron-icon"></i>
+                        </div>
+                    </div>
+
+                    <div class="floating-input-group">
+                        <textarea id="message" name="message" rows="5" required placeholder=" " class="input-field"></textarea>
+                        <label for="message" class="floating-label">Tulis Pesan Anda (*)</label>
+                    </div>
+
+                    <p id="form-status" class="form-feedback-msg"></p>
+
+                    <button type="submit" class="btn-submit-modern">
+                        Kirim Pesan <i class="fas fa-paper-plane" style="margin-left: 8px;"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======================================================================
+         11. SIGNATURE XTRA #4d61ff FOOTER (#site_footer)
+         ====================================================================== -->
+    <footer class="xtra-site-footer" id="site_footer">
+        <!-- Middle Footer: Full #4d61ff Background with 4 Columns -->
+        <div class="cz_middle_footer">
+            <div class="container">
+                <div class="cz_footer_grid">
+                    <!-- Column 1: Kontak & Media Sosial -->
+                    <div class="cz_footer_col">
+                        <h4 class="cz_footer_col_title">Kontak &amp; Alamat</h4>
+                        <ul class="cz_office_list">
+                            <li>
+                                <div>
+                                    <span class="cz_office_icon"><i class="fas fa-map-marker-alt"></i></span>
+                                    <span>Samarinda, Kalimantan Timur</span>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <span class="cz_office_icon"><i class="fas fa-university"></i></span>
+                                    <span>Politeknik Negeri Samarinda</span>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="mailto:projectfdrr@gmail.com">
+                                    <span class="cz_office_icon"><i class="fas fa-envelope"></i></span>
+                                    <span>projectfdrr@gmail.com</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://instagram.com/fdrrside" target="_blank" rel="noopener noreferrer">
+                                    <span class="cz_office_icon"><i class="fab fa-instagram"></i></span>
+                                    <span>@fdrrside</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://linkedin.com/in/fadnur" target="_blank" rel="noopener noreferrer">
+                                    <span class="cz_office_icon"><i class="fab fa-linkedin-in"></i></span>
+                                    <span>Muh. Fadnur Fajrin</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/fdrr03-fj" target="_blank" rel="noopener noreferrer">
+                                    <span class="cz_office_icon"><i class="fab fa-github"></i></span>
+                                    <span>@fdrr03-fj</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- Column 2: Tautan Cepat -->
+                    <div class="cz_footer_col">
+                        <h4 class="cz_footer_col_title">Navigasi Cepat</h4>
+                        <div class="cz_shortcuts_grid">
+                            <a href="#home"><i class="fas fa-angle-right"></i> Beranda</a>
+                            <a href="#tentang"><i class="fas fa-angle-right"></i> Tentang Saya</a>
+                            <a href="#explore"><i class="fas fa-angle-right"></i> Bidang Minat</a>
+                            <a href="#proyek"><i class="fas fa-angle-right"></i> Proyek</a>
+                            <a href="#pengalaman"><i class="fas fa-angle-right"></i> Pengalaman</a>
+                            <a href="#sertifikasi"><i class="fas fa-angle-right"></i> Sertifikasi</a>
+                            <a href="project-smart-infrared.html"><i class="fas fa-angle-right"></i> Smart Infrared</a>
+                            <a href="project-pekan-jurnalistik.html"><i class="fas fa-angle-right"></i> Jurnalistik</a>
+                            <a href="CV.pdf" download><i class="fas fa-angle-right"></i> Unduh CV (PDF)</a>
+                            <a href="#kontak"><i class="fas fa-angle-right"></i> Kontak</a>
+                        </div>
+                    </div>
+
+                    <!-- Column 3: Status Akademik -->
+                    <div class="cz_footer_col">
+                        <h4 class="cz_footer_col_title">Status &amp; Kolaborasi</h4>
+                        <p class="cz_hours_intro">Terbuka untuk diskusi teknologi, kolaborasi proyek tugas, kegiatan organisasi kemahasiswaan, dan kesempatan magang industri.</p>
+                        <div class="cz_status_box">
+                            <div class="cz_dashed_row">
+                                <span class="cz_left_label">Status</span>
+                                <span class="cz_line"></span>
+                                <span class="cz_right_label" style="color: #ffffff; font-weight: 600;"><i class="fas fa-circle" style="font-size: 8px; vertical-align: middle; margin-right: 4px; color: #10b981;"></i> Mahasiswa Aktif</span>
+                            </div>
+                            <div class="cz_dashed_row">
+                                <span class="cz_left_label">Kampus</span>
+                                <span class="cz_line"></span>
+                                <span class="cz_right_label">POLNES Samarinda</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Dark Footer (.footer_2) -->
+        <div class="cz_bottom_footer">
+            <div class="container cz_bottom_footer_row">
+                <p class="cz_copyright_text">
+                    Copyright &copy;2026 Muh. Fadnur Fajrin.
+                </p>
+                <div class="cz_bottom_links">
+                    <a href="#home">Kembali ke Atas</a>
+                    <span>&bull;</span>
+                    <a href="CV.pdf" download>Unduh CV</a>
+                    <span>&bull;</span>
+                    <a href="#kontak">Hubungi Saya</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Fixed Bottom-Right Buttons (Back to Top & Quick Contact) -->
+    <button class="xtra-backtotop" id="backtotop-btn" aria-label="Kembali ke Atas" title="Kembali ke Atas">
+        <i class="fas fa-angle-up"></i>
+    </button>
+    <a href="#kontak" class="xtra-fixed-contact-btn" aria-label="Hubungi Saya" title="Hubungi Saya">
+        <i class="far fa-envelope"></i>
+    </a>
+
+    <!-- ======================================================================
+         12. XTRA MOBILE OFF-CANVAS SLIDE-OUT DRAWER
+         Slide dari kanan, frosted translucent glass background, dividers & footer
+         ====================================================================== -->
+    <div class="mobile-drawer-backdrop" id="mobile-drawer-backdrop" aria-hidden="true"></div>
+
+    <aside class="xtra-mobile-drawer" id="mobile-drawer" aria-label="Menu Navigasi Mobile">
+        <!-- Drawer Header: Tombol Close X & Logo Brand -->
+        <div class="xtra-drawer-header">
+            <button class="drawer-close-btn" id="drawer-close-btn" aria-label="Tutup Menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <a href="#home" class="drawer-brand" aria-label="Fdrtech Home">
+                <img src="img/logo/logo-dark.png" alt="Fdrtech Logo Dark" class="brand-logo-img logo-dark" width="120" height="30" decoding="async">
+                <img src="img/logo/logo-light.png" alt="Fdrtech Logo Light" class="brand-logo-img logo-light" width="120" height="30" decoding="async">
+            </a>
+        </div>
+
+        <!-- Menu Items (Left-aligned, Dividers, Chevron indicator) -->
+        <ul class="xtra-drawer-menu" id="drawer-menu">
+            <li><a href="#home" class="drawer-link active"><span>Home</span></a></li>
+            <li><a href="#tentang" class="drawer-link"><span>About</span></a></li>
+            <li><a href="#explore" class="drawer-link"><span>Services</span></a></li>
+            <li><a href="#proyek" class="drawer-link"><span>Projects</span></a></li>
+            <li><a href="#pengalaman" class="drawer-link"><span>Experience</span></a></li>
+            <li><a href="#kontak" class="drawer-link"><span>Contact</span></a></li>
+            <li class="drawer-cta-item">
+                <a href="#kontak" class="drawer-cta-link">
+                    <span>Let's Talk</span>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Drawer Footer: Ganti Tema, Media Sosial & Copyright -->
+        <div class="xtra-drawer-footer">
+            <div class="drawer-theme-row">
+                <button class="theme-switch" id="drawer-theme-btn" aria-label="Ganti Tema (Matahari / Bulan)" title="Ganti Tema">
+                    <span class="switch-track">
+                        <span class="switch-icon icon-sun"><i class="fas fa-sun"></i></span>
+                        <span class="switch-icon icon-moon"><i class="fas fa-moon"></i></span>
+                        <span class="switch-thumb">
+                            <i class="fas fa-moon thumb-icon" id="drawer-theme-icon"></i>
+                        </span>
+                    </span>
+                </button>
+            </div>
+
+            <div class="xtra-drawer-social">
+                <a href="https://github.com/fdrrproject" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="drawer-social-btn">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://linkedin.com/in/fadnur-fajrin" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="drawer-social-btn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://instagram.com/fdrrproject" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="drawer-social-btn">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+
+            <div class="xtra-drawer-copyright">
+                © Copyright 2026
+            </div>
+        </div>
+    </aside>
+
+    <!-- ======================================================================
+         MODAL PRATINJAU & VERIFIKASI KEASLIAN SERTIFIKAT (#cert-preview-modal)
+         ====================================================================== -->
+    <div class="cert_modal_backdrop" id="cert-preview-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="cert-modal-title">
+        <div class="cert_modal_dialog">
+            <button type="button" class="cert_modal_close" id="cert-modal-close" aria-label="Tutup Pratinjau">
+                <i class="fas fa-xmark"></i>
+            </button>
+
+            <!-- Kolom Kiri: Pratinjau Visual Sertifikat Interaktif (Zoomable + Navigasi) -->
+            <div class="cert_modal_viewer">
+                <div class="cert_modal_toolbar">
+                    <span class="cert_modal_counter" id="cert-modal-counter">1 / 9</span>
+                    <button type="button" class="cert_modal_zoom_btn" id="cert-modal-zoom-btn" title="Perbesar / Perkecil Gambar Sertifikat">
+                        <i class="fas fa-magnifying-glass-plus"></i> <span>Perbesar</span>
+                    </button>
+                </div>
+
+                <div class="cert_modal_img_stage" id="cert-modal-img-wrap">
+                    <img src="sertif/preview/ccna-cisco.jpg" alt="Pratinjau Bukti Sertifikat Asli" id="cert-modal-img" draggable="false">
+                </div>
+
+                <button type="button" class="cert_modal_nav cert_modal_prev" id="cert-modal-prev" aria-label="Sertifikat Sebelumnya">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button type="button" class="cert_modal_nav cert_modal_next" id="cert-modal-next" aria-label="Sertifikat Selanjutnya">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+
+            <!-- Kolom Kanan: Rincian Keaslian & Tautan Dokumen Resmi -->
+            <div class="cert_modal_details">
+                <div class="cert_modal_verified_pill">
+                    <i class="fas fa-circle-check"></i>
+                    <span>Dokumen Asli &amp; Terverifikasi</span>
+                </div>
+
+                <span class="cert_modal_category" id="cert-modal-category">Network Engineering</span>
+                <h3 class="cert_modal_title" id="cert-modal-title">CCNA: Introduction to Networks</h3>
+
+                <div class="cert_modal_meta_list">
+                    <div class="cert_meta_row">
+                        <span class="cert_meta_label"><i class="fas fa-user-check"></i> Pemilik</span>
+                        <span class="cert_meta_val">Muh. Fadnur Fajrin</span>
+                    </div>
+                    <div class="cert_meta_row">
+                        <span class="cert_meta_label"><i class="fas fa-building-columns"></i> Penerbit Resmi</span>
+                        <span class="cert_meta_val" id="cert-modal-issuer">Cisco Networking Academy</span>
+                    </div>
+                    <div class="cert_meta_row">
+                        <span class="cert_meta_label"><i class="fas fa-calendar-check"></i> Tanggal Terbit</span>
+                        <span class="cert_meta_val" id="cert-modal-date">19 Juni 2026</span>
+                    </div>
+                    <div class="cert_meta_row">
+                        <span class="cert_meta_label"><i class="fas fa-fingerprint"></i> Nomor / Kredensial</span>
+                        <span class="cert_meta_val cert_meta_mono" id="cert-modal-credential">Verified Student Level Credential</span>
+                    </div>
+                    <div class="cert_meta_row">
+                        <span class="cert_meta_label"><i class="fas fa-file-shield"></i> Format Bukti</span>
+                        <span class="cert_meta_val" id="cert-modal-filetype">PDF Resmi</span>
+                    </div>
+                </div>
+
+                <p class="cert_modal_desc" id="cert-modal-desc">
+                    Sertifikasi resmi Cisco Networking Academy atas penguasaan arsitektur jaringan, konfigurasi switch &amp; router Cisco IOS, model OSI/TCP-IP, pengalamatan IPv4/IPv6, serta keamanan jaringan dasar.
+                </p>
+
+                <div class="cert_modal_actions">
+                    <div class="cert_modal_notice">
+                        <i class="fas fa-shield-halved"></i>
+                        <span>Dokumen asli resmi dapat dibuka atau diunduh langsung:</span>
+                    </div>
+                    <a href="sertif/CCNA-Cisco.pdf" target="_blank" rel="noopener noreferrer" class="cert_modal_btn_primary" id="cert-modal-file-btn">
+                        <i class="fas fa-file-arrow-down"></i>
+                        <span>Buka / Lihat File Asli (PDF / HD)</span>
+                    </a>
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="cert_modal_btn_verify" id="cert-modal-verify-btn" style="display: none;">
+                        <i class="fas fa-up-right-from-square"></i>
+                        <span>Verifikasi Kredensial Online</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ======================================================================
+         JAVASCRIPT: SLIDER, PARTICLES, COUNTERS, CAROUSEL, THEME & SECURITY
+         ====================================================================== -->
+    <script>
+        // 1. SAKLAR TEMA MATAHARI & BULAN DENGAN VIEW TRANSITION RIPPLE
+        const themeBtn = document.getElementById('theme-btn');
+        const themeIcon = document.getElementById('theme-icon');
+        const mobileThemeBtn = document.getElementById('mobile-theme-btn');
+        const mobileThemeIcon = document.getElementById('mobile-theme-icon');
+        const drawerThemeBtn = document.getElementById('drawer-theme-btn');
+        const drawerThemeIcon = document.getElementById('drawer-theme-icon');
+        const htmlElement = document.documentElement;
+
+        function applyTheme(theme) {
+            if (theme === 'light') {
+                htmlElement.removeAttribute('data-theme');
+                if (themeIcon) themeIcon.className = 'fas fa-sun thumb-icon';
+                if (mobileThemeIcon) mobileThemeIcon.className = 'fas fa-sun thumb-icon';
+                if (drawerThemeIcon) drawerThemeIcon.className = 'fas fa-sun thumb-icon';
+                localStorage.setItem('theme', 'light');
+            } else {
+                htmlElement.setAttribute('data-theme', 'dark');
+                if (themeIcon) themeIcon.className = 'fas fa-moon thumb-icon';
+                if (mobileThemeIcon) mobileThemeIcon.className = 'fas fa-moon thumb-icon';
+                if (drawerThemeIcon) drawerThemeIcon.className = 'fas fa-moon thumb-icon';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'light') {
+            applyTheme('light');
+        } else {
+            applyTheme('dark');
+        }
+
+        function triggerThemeToggle(triggerBtn) {
+            const isDark = htmlElement.getAttribute('data-theme') === 'dark';
+            const nextTheme = isDark ? 'light' : 'dark';
+
+            const rect = triggerBtn ? triggerBtn.getBoundingClientRect() : { left: window.innerWidth / 2, top: 40, width: 0, height: 0 };
+            const x = rect.left + rect.width / 2;
+            const y = rect.top + rect.height / 2;
+            const endRadius = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
+
+            if (document.startViewTransition) {
+                htmlElement.style.setProperty('--ripple-x', `${x}px`);
+                htmlElement.style.setProperty('--ripple-y', `${y}px`);
+                htmlElement.style.setProperty('--ripple-r', `${endRadius}px`);
+
+                const transition = document.startViewTransition(() => {
+                    applyTheme(nextTheme);
+                });
+
+                transition.ready.then(() => {
+                    document.documentElement.animate(
+                        {
+                            clipPath: [
+                                `circle(0px at ${x}px ${y}px)`,
+                                `circle(${endRadius}px at ${x}px ${y}px)`
+                            ]
+                        },
+                        {
+                            duration: 650,
+                            easing: 'cubic-bezier(0.16, 1, 0.3, 1)',
+                            pseudoElement: '::view-transition-new(root)'
+                        }
+                    );
+                }).catch(() => {});
+            } else {
+                const fallbackRipple = document.createElement('div');
+                fallbackRipple.className = 'theme-ripple-fallback';
+                fallbackRipple.style.left = `${x}px`;
+                fallbackRipple.style.top = `${y}px`;
+                fallbackRipple.style.width = `${endRadius * 2}px`;
+                fallbackRipple.style.height = `${endRadius * 2}px`;
+                fallbackRipple.style.marginLeft = `${-endRadius}px`;
+                fallbackRipple.style.marginTop = `${-endRadius}px`;
+                fallbackRipple.style.background = nextTheme === 'dark' ? '#151719' : '#f5f7fb';
+                document.body.appendChild(fallbackRipple);
+
+                applyTheme(nextTheme);
+                requestAnimationFrame(() => fallbackRipple.classList.add('expanding'));
+                setTimeout(() => {
+                    fallbackRipple.style.opacity = '0';
+                    setTimeout(() => fallbackRipple.remove(), 400);
+                }, 550);
+            }
+        }
+
+        if (themeBtn) {
+            themeBtn.addEventListener('click', () => triggerThemeToggle(themeBtn));
+        }
+        if (mobileThemeBtn) {
+            mobileThemeBtn.addEventListener('click', () => triggerThemeToggle(mobileThemeBtn));
+        }
+        if (drawerThemeBtn) {
+            drawerThemeBtn.addEventListener('click', () => triggerThemeToggle(drawerThemeBtn));
+        }
+
+        // 2. HERO BANNER INITIALIZATION
+        const heroSlides = document.querySelectorAll('.xtra-slide');
+        if (heroSlides.length > 0) {
+            heroSlides[0].classList.add('active');
+        }
+
+        // 3. FLOATING PARTICLES CANVAS IN #4d61ff SERVICES SECTION
+        const canvas = document.getElementById('xtra-particles');
+        if (canvas) {
+            const ctx = canvas.getContext('2d');
+            let particles = [];
+            function resizeCanvas() {
+                canvas.width = canvas.parentElement.offsetWidth;
+                canvas.height = canvas.parentElement.offsetHeight;
+            }
+            resizeCanvas();
+            window.addEventListener('resize', resizeCanvas, { passive: true });
+
+            for (let i = 0; i < 36; i++) {
+                particles.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    r: Math.random() * 4 + 1.5,
+                    dx: (Math.random() - 0.5) * 0.45,
+                    dy: (Math.random() - 0.5) * 0.45,
+                    alpha: Math.random() * 0.35 + 0.1
+                });
+            }
+
+            function drawParticles() {
+                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                for (let i = 0; i < particles.length; i++) {
+                    const p = particles[i];
+                    p.x += p.dx;
+                    p.y += p.dy;
+                    if (p.x < 0) p.x = canvas.width;
+                    if (p.x > canvas.width) p.x = 0;
+                    if (p.y < 0) p.y = canvas.height;
+                    if (p.y > canvas.height) p.y = 0;
+
+                    ctx.beginPath();
+                    ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+                    ctx.fillStyle = `rgba(255, 255, 255, ${p.alpha})`;
+                    ctx.fill();
+                }
+                requestAnimationFrame(drawParticles);
+            }
+            drawParticles();
+        }
+
+        // 4. ANIMATED NUMBER COUNTERS ON SCROLL
+        const countersSection = document.getElementById('counters-section');
+        let countersStarted = false;
+        if (countersSection) {
+            const counterObserver = new IntersectionObserver((entries) => {
+                if (entries[0].isIntersecting && !countersStarted) {
+                    countersStarted = true;
+                    document.querySelectorAll('.cz_counter_val').forEach(el => {
+                        const target = parseInt(el.getAttribute('data-target'), 10);
+                        let current = 0;
+                        const step = Math.max(1, Math.ceil(target / 45));
+                        const timer = setInterval(() => {
+                            current += step;
+                            if (current >= target) {
+                                el.textContent = target;
+                                clearInterval(timer);
+                            } else {
+                                el.textContent = current;
+                            }
+                        }, 30);
+                    });
+                }
+            }, { threshold: 0.3 });
+            counterObserver.observe(countersSection);
+        }
+
+        // 5. INTERACTIVE CONTINUOUS INFINITE-LOOP CAROUSEL + PREVIEW MODE
+        const certViewport = document.getElementById('cert-carousel-viewport');
+        const certStage = document.getElementById('cert-carousel-stage');
+        const originalSlides = Array.from(certStage ? certStage.querySelectorAll('.cz_carousel_slide') : []);
+        const totalOriginal = originalSlides.length; // 8
+        const certDots = Array.from(document.querySelectorAll('.cz_slick_dot'));
+        const certPrev = document.getElementById('cert-prev');
+        const certNext = document.getElementById('cert-next');
+        const certCounterPill = document.getElementById('cert-counter-pill');
+
+        // Modal Elements
+        const certModal = document.getElementById('cert-preview-modal');
+        const certModalClose = document.getElementById('cert-modal-close');
+        const certModalImg = document.getElementById('cert-modal-img');
+        const certModalImgWrap = document.getElementById('cert-modal-img-wrap');
+        const certModalZoomBtn = document.getElementById('cert-modal-zoom-btn');
+        const certModalCounter = document.getElementById('cert-modal-counter');
+        const certModalCategory = document.getElementById('cert-modal-category');
+        const certModalTitle = document.getElementById('cert-modal-title');
+        const certModalIssuer = document.getElementById('cert-modal-issuer');
+        const certModalDate = document.getElementById('cert-modal-date');
+        const certModalCredential = document.getElementById('cert-modal-credential');
+        const certModalFiletype = document.getElementById('cert-modal-filetype');
+        const certModalDesc = document.getElementById('cert-modal-desc');
+        const certModalFileBtn = document.getElementById('cert-modal-file-btn');
+        const certModalVerifyBtn = document.getElementById('cert-modal-verify-btn');
+        const certModalPrev = document.getElementById('cert-modal-prev');
+        const certModalNext = document.getElementById('cert-modal-next');
+
+        let isModalZoomed = false;
+        let allSlides = [];
+        let currentVirtualIndex = totalOriginal; // Default center on real item 0 (virtual 8)
+        let isDragging = false;
+        let hasDragged = false;
+        let dragStartX = 0;
+        let dragStartY = 0;
+        let currentTranslate = 0;
+        let startTranslate = 0;
+        let isHorizontal = null;
+        let lastX = 0;
+        let lastTime = 0;
+        let velocityX = 0;
+
+        // Build Infinite Clones (8 before + 8 real + 8 after = 24 seamless items)
+        if (certStage && totalOriginal > 0) {
+            originalSlides.forEach((slide, idx) => {
+                slide.dataset.realIndex = idx;
+            });
+
+            const beforeClones = originalSlides.map((s, idx) => {
+                const clone = s.cloneNode(true);
+                clone.classList.add('is-clone');
+                clone.dataset.realIndex = idx;
+                return clone;
+            });
+
+            const afterClones = originalSlides.map((s, idx) => {
+                const clone = s.cloneNode(true);
+                clone.classList.add('is-clone');
+                clone.dataset.realIndex = idx;
+                return clone;
+            });
+
+            beforeClones.forEach(c => certStage.insertBefore(c, originalSlides[0]));
+            afterClones.forEach(c => certStage.appendChild(c));
+
+            allSlides = Array.from(certStage.querySelectorAll('.cz_carousel_slide'));
+            allSlides.forEach((slide, idx) => {
+                slide.dataset.virtualIndex = idx;
+                slide.dataset.realIndex = idx % totalOriginal;
+            });
+        }
+
+        function getCenterTranslate(virtualIndex) {
+            if (!certViewport || !allSlides[virtualIndex]) return 0;
+            const slide = allSlides[virtualIndex];
+            const viewportCenter = certViewport.clientWidth / 2;
+            const slideCenter = slide.offsetLeft + (slide.offsetWidth / 2);
+            return viewportCenter - slideCenter;
+        }
+
+        function applyTransform(virtualIndex, animate = true) {
+            if (!certStage || !allSlides[virtualIndex]) return;
+            currentTranslate = getCenterTranslate(virtualIndex);
+            if (animate) {
+                certStage.style.transition = 'transform 0.48s cubic-bezier(0.16, 1, 0.3, 1)';
+            } else {
+                certStage.style.transition = 'none';
+            }
+            certStage.style.transform = `translate3d(${currentTranslate}px, 0, 0)`;
+        }
+
+        function updateActiveStates(targetVirtual = currentVirtualIndex) {
+            const realIndex = ((targetVirtual % totalOriginal) + totalOriginal) % totalOriginal;
+            allSlides.forEach((slide, idx) => {
+                slide.classList.toggle('is-center', idx === targetVirtual);
+                slide.classList.toggle('is-adjacent', Math.abs(idx - targetVirtual) === 1);
+            });
+            certDots.forEach((dot, idx) => {
+                dot.classList.toggle('active', idx === realIndex);
+            });
+            if (certCounterPill) {
+                certCounterPill.textContent = `${realIndex + 1} / ${totalOriginal}`;
+            }
+        }
+
+        function normalizeIndex() {
+            let changed = false;
+            if (currentVirtualIndex >= 16) {
+                currentVirtualIndex -= totalOriginal;
+                changed = true;
+            } else if (currentVirtualIndex < 8) {
+                currentVirtualIndex += totalOriginal;
+                changed = true;
+            }
+            if (changed) {
+                applyTransform(currentVirtualIndex, false);
+                updateActiveStates();
+                if (certStage) void certStage.offsetWidth; // Force synchronous reflow
+            }
+        }
+
+        function moveTo(targetIndex, animate = true) {
+            if (!allSlides.length) return;
+            // Pre-normalize if past safe range before initiating new move
+            if (currentVirtualIndex >= 16 || currentVirtualIndex < 8) {
+                normalizeIndex();
+            }
+            currentVirtualIndex = targetIndex;
+            applyTransform(currentVirtualIndex, animate);
+            updateActiveStates();
+        }
+
+        if (certStage) {
+            certStage.addEventListener('transitionend', (e) => {
+                if (e.target !== certStage || e.propertyName !== 'transform') return;
+                if (!isDragging) {
+                    normalizeIndex();
+                }
+            });
+        }
+
+        if (certNext) {
+            certNext.addEventListener('click', () => moveTo(currentVirtualIndex + 1, true));
+        }
+        if (certPrev) {
+            certPrev.addEventListener('click', () => moveTo(currentVirtualIndex - 1, true));
+        }
+
+        certDots.forEach((dot, k) => {
+            dot.addEventListener('click', () => {
+                const currentReal = ((currentVirtualIndex % totalOriginal) + totalOriginal) % totalOriginal;
+                let diff = k - currentReal;
+                if (diff > 4) diff -= 8;
+                if (diff < -4) diff += 8;
+                moveTo(currentVirtualIndex + diff, true);
+            });
+        });
+
+        // Touch & Mouse Drag Gesture Support (Continuous fluid sliding)
+        let isMouseDrag = false;
+
+        function onDragStart(clientX, clientY, isMouse = false) {
+            if (!certStage || !certViewport) return;
+            if (currentVirtualIndex >= 16 || currentVirtualIndex < 8) {
+                normalizeIndex();
+            }
+            isMouseDrag = isMouse;
+            isDragging = true;
+            hasDragged = false;
+            dragStartX = clientX;
+            dragStartY = clientY;
+            lastX = clientX;
+            lastTime = Date.now();
+            velocityX = 0;
+            isHorizontal = isMouse ? true : null;
+            startTranslate = getCenterTranslate(currentVirtualIndex);
+            certStage.style.transition = 'none';
+        }
+
+        function onDragMove(clientX, clientY, e) {
+            if (!isDragging || !certStage) return;
+            const dx = clientX - dragStartX;
+            const dy = clientY - dragStartY;
+
+            // Touch gesture: distinguish between vertical page scroll and horizontal card swipe
+            if (!isMouseDrag && isHorizontal === null && (Math.abs(dx) > 4 || Math.abs(dy) > 4)) {
+                isHorizontal = Math.abs(dx) >= Math.abs(dy);
+            }
+
+            if (!isMouseDrag && isHorizontal === false) {
+                isDragging = false;
+                applyTransform(currentVirtualIndex, true);
+                return;
+            }
+
+            if (isMouseDrag || isHorizontal === true) {
+                if (e && e.cancelable) e.preventDefault();
+                if (Math.abs(dx) > 4) {
+                    hasDragged = true;
+                    certViewport.classList.add('is-grabbing');
+                    document.body.classList.add('is-carousel-dragging');
+                }
+                const now = Date.now();
+                const dt = now - lastTime;
+                if (dt > 0) {
+                    velocityX = (clientX - lastX) / dt;
+                }
+                lastX = clientX;
+                lastTime = now;
+
+                currentTranslate = startTranslate + dx;
+                certStage.style.transform = `translate3d(${currentTranslate}px, 0, 0)`;
+
+                // Realtime highlight nearest card while dragging
+                const vpCenter = certViewport.clientWidth / 2;
+                let nearestIdx = currentVirtualIndex;
+                let minDistance = Infinity;
+                allSlides.forEach((slide, idx) => {
+                    const sc = slide.offsetLeft + (slide.offsetWidth / 2) + currentTranslate;
+                    const dist = Math.abs(sc - vpCenter);
+                    if (dist < minDistance) {
+                        minDistance = dist;
+                        nearestIdx = idx;
+                    }
+                });
+                allSlides.forEach((s, idx) => {
+                    s.classList.toggle('is-center', idx === nearestIdx);
+                    s.classList.toggle('is-adjacent', Math.abs(idx - nearestIdx) === 1);
+                });
+                const liveReal = ((nearestIdx % totalOriginal) + totalOriginal) % totalOriginal;
+                certDots.forEach((d, idx) => d.classList.toggle('active', idx === liveReal));
+                if (certCounterPill) certCounterPill.textContent = `${liveReal + 1} / ${totalOriginal}`;
+            }
+        }
+
+        function onDragEnd() {
+            if (!isDragging) return;
+            isDragging = false;
+            certViewport.classList.remove('is-grabbing');
+            document.body.classList.remove('is-carousel-dragging');
+
+            if (hasDragged) {
+                const dx = lastX - dragStartX;
+                const slideWidth = allSlides[currentVirtualIndex] ? allSlides[currentVirtualIndex].offsetWidth : 320;
+                const threshold = Math.min(35, slideWidth * 0.1);
+                const momentum = velocityX * 130;
+                const effectiveDelta = dx + momentum;
+
+                if (Math.abs(effectiveDelta) > threshold) {
+                    if (effectiveDelta < 0) {
+                        moveTo(currentVirtualIndex + 1, true);
+                    } else {
+                        moveTo(currentVirtualIndex - 1, true);
+                    }
+                } else {
+                    applyTransform(currentVirtualIndex, true);
+                    updateActiveStates();
+                }
+            } else {
+                applyTransform(currentVirtualIndex, true);
+                updateActiveStates();
+            }
+
+            setTimeout(() => {
+                hasDragged = false;
+            }, 80);
+        }
+
+        if (certViewport) {
+            // Prevent native browser image/card drag interference
+            certViewport.addEventListener('dragstart', (e) => e.preventDefault());
+
+            // Mouse Drag Listeners
+            certViewport.addEventListener('mousedown', (e) => {
+                if (e.button !== 0 || e.target.closest('#cert-preview-modal')) return;
+                onDragStart(e.clientX, e.clientY, true);
+            });
+            window.addEventListener('mousemove', (e) => {
+                if (!isDragging) return;
+                onDragMove(e.clientX, e.clientY, e);
+            });
+            window.addEventListener('mouseup', () => {
+                if (!isDragging) return;
+                onDragEnd();
+            });
+
+            // Touch Swipe Listeners
+            certViewport.addEventListener('touchstart', (e) => {
+                if (e.touches.length !== 1) return;
+                onDragStart(e.touches[0].clientX, e.touches[0].clientY, false);
+            }, { passive: true });
+
+            certViewport.addEventListener('touchmove', (e) => {
+                if (!isDragging || e.touches.length !== 1) return;
+                onDragMove(e.touches[0].clientX, e.touches[0].clientY, e);
+            }, { passive: false });
+
+            certViewport.addEventListener('touchend', () => {
+                if (!isDragging) return;
+                onDragEnd();
+            });
+            certViewport.addEventListener('touchcancel', () => {
+                if (!isDragging) return;
+                onDragEnd();
+            });
+
+            // Trackpad / Horizontal Wheel Gesture Support
+            let wheelLock = false;
+            certViewport.addEventListener('wheel', (e) => {
+                const delta = Math.abs(e.deltaX) > Math.abs(e.deltaY) ? e.deltaX : (e.shiftKey ? e.deltaY : 0);
+                if (Math.abs(delta) > 18 && !wheelLock) {
+                    wheelLock = true;
+                    if (delta > 0) {
+                        moveTo(currentVirtualIndex + 1, true);
+                    } else {
+                        moveTo(currentVirtualIndex - 1, true);
+                    }
+                    setTimeout(() => { wheelLock = false; }, 360);
+                }
+            }, { passive: true });
+        }
+
+        // Card Click Handler -> Direct to Mode Preview
+        allSlides.forEach(slide => {
+            slide.addEventListener('click', () => {
+                if (hasDragged) return; // Prevent triggering preview during drag
+                const realIdx = parseInt(slide.dataset.realIndex, 10);
+                const virtIdx = parseInt(slide.dataset.virtualIndex, 10);
+
+                // Smoothly focus on selected slide
+                moveTo(virtIdx, true);
+
+                // Instantly open preview mode
+                openCertModal(realIdx);
+            });
+        });
+
+        // Modal Logic & Authenticity Verification
+        function resetModalZoom() {
+            isModalZoomed = false;
+            if (certModalImgWrap) {
+                certModalImgWrap.classList.remove('zoomed');
+                certModalImgWrap.scrollTop = 0;
+                certModalImgWrap.scrollLeft = 0;
+            }
+            if (certModalZoomBtn) {
+                certModalZoomBtn.innerHTML = '<i class="fas fa-magnifying-glass-plus"></i> <span>Perbesar</span>';
+            }
+        }
+
+        function toggleModalZoom() {
+            isModalZoomed = !isModalZoomed;
+            if (certModalImgWrap) {
+                certModalImgWrap.classList.toggle('zoomed', isModalZoomed);
+            }
+            if (certModalZoomBtn) {
+                certModalZoomBtn.innerHTML = isModalZoomed
+                    ? '<i class="fas fa-magnifying-glass-minus"></i> <span>Perkecil</span>'
+                    : '<i class="fas fa-magnifying-glass-plus"></i> <span>Perbesar</span>';
+            }
+        }
+
+        function populateCertModal(realIndex) {
+            const slide = originalSlides[realIndex];
+            if (!slide) return;
+            resetModalZoom();
+
+            const title = slide.getAttribute('data-title') || '';
+            const issuer = slide.getAttribute('data-issuer') || '';
+            const date = slide.getAttribute('data-date') || '';
+            const category = slide.getAttribute('data-category') || '';
+            const credential = slide.getAttribute('data-credential') || '';
+            const preview = slide.getAttribute('data-preview') || '';
+            const fileUrl = slide.getAttribute('data-file') || '#';
+            const fileType = slide.getAttribute('data-filetype') || 'Dokumen Asli';
+            const verifyUrl = slide.getAttribute('data-verify-url') || '';
+            const desc = slide.getAttribute('data-desc') || '';
+
+            if (certModalImg) {
+                certModalImg.src = preview;
+                certModalImg.alt = `Pratinjau Sertifikat ${title}`;
+            }
+            if (certModalCounter) certModalCounter.textContent = `${realIndex + 1} / ${totalOriginal}`;
+            if (certModalCategory) certModalCategory.textContent = category;
+            if (certModalTitle) certModalTitle.textContent = title;
+            if (certModalIssuer) certModalIssuer.textContent = issuer;
+            if (certModalDate) certModalDate.textContent = date;
+            if (certModalCredential) certModalCredential.textContent = credential;
+            if (certModalFiletype) certModalFiletype.textContent = fileType;
+            if (certModalDesc) certModalDesc.textContent = desc;
+            if (certModalFileBtn) certModalFileBtn.href = fileUrl;
+
+            if (certModalVerifyBtn) {
+                if (verifyUrl) {
+                    certModalVerifyBtn.href = verifyUrl;
+                    certModalVerifyBtn.style.display = 'inline-flex';
+                } else {
+                    certModalVerifyBtn.style.display = 'none';
+                }
+            }
+        }
+
+        function openCertModal(realIndex) {
+            populateCertModal(realIndex);
+            if (certModal) {
+                certModal.classList.add('open');
+                certModal.setAttribute('aria-hidden', 'false');
+                document.body.classList.add('cert-modal-open');
+            }
+        }
+
+        function closeCertModal() {
+            if (certModal) {
+                certModal.classList.remove('open');
+                certModal.setAttribute('aria-hidden', 'true');
+                document.body.classList.remove('cert-modal-open');
+                resetModalZoom();
+            }
+        }
+
+        if (certModalClose) certModalClose.addEventListener('click', closeCertModal);
+        if (certModal) {
+            certModal.addEventListener('click', (e) => {
+                if (e.target === certModal) closeCertModal();
+            });
+        }
+        if (certModalZoomBtn) certModalZoomBtn.addEventListener('click', toggleModalZoom);
+        if (certModalImg) certModalImg.addEventListener('click', toggleModalZoom);
+
+        if (certModalNext) {
+            certModalNext.addEventListener('click', () => {
+                moveTo(currentVirtualIndex + 1, true);
+                const nextReal = ((currentVirtualIndex % totalOriginal) + totalOriginal) % totalOriginal;
+                populateCertModal(nextReal);
+            });
+        }
+        if (certModalPrev) {
+            certModalPrev.addEventListener('click', () => {
+                moveTo(currentVirtualIndex - 1, true);
+                const prevReal = ((currentVirtualIndex % totalOriginal) + totalOriginal) % totalOriginal;
+                populateCertModal(prevReal);
+            });
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (certModal && certModal.classList.contains('open')) {
+                if (e.key === 'Escape') closeCertModal();
+                if (e.key === 'ArrowRight') {
+                    moveTo(currentVirtualIndex + 1, true);
+                    const nextReal = ((currentVirtualIndex % totalOriginal) + totalOriginal) % totalOriginal;
+                    populateCertModal(nextReal);
+                }
+                if (e.key === 'ArrowLeft') {
+                    moveTo(currentVirtualIndex - 1, true);
+                    const prevReal = ((currentVirtualIndex % totalOriginal) + totalOriginal) % totalOriginal;
+                    populateCertModal(prevReal);
+                }
+            }
+        });
+
+        // Initialize and handle resize
+        function initCertCarousel() {
+            currentVirtualIndex = totalOriginal; // Start at real item 0 (virtual 8)
+            applyTransform(currentVirtualIndex, false);
+            updateActiveStates();
+        }
+
+        window.addEventListener('resize', () => {
+            requestAnimationFrame(() => applyTransform(currentVirtualIndex, false));
+        }, { passive: true });
+
+        window.addEventListener('load', initCertCarousel);
+        initCertCarousel();
+
+        // 6. MOBILE OFF-CANVAS SLIDE-OUT DRAWER (Persis Screenshot media_1793495339250_450863cb.jpg)
+        const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+        const mobileDrawer = document.getElementById('mobile-drawer');
+        const mobileDrawerBackdrop = document.getElementById('mobile-drawer-backdrop');
+        const drawerCloseBtn = document.getElementById('drawer-close-btn');
+        const drawerLinks = document.querySelectorAll('.xtra-drawer-menu .drawer-link, .drawer-cta-link');
+
+        function openMobileDrawer() {
+            if (mobileDrawer) mobileDrawer.classList.add('open');
+            if (mobileDrawerBackdrop) mobileDrawerBackdrop.classList.add('open');
+            if (mobileMenuToggle) {
+                mobileMenuToggle.classList.add('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'true');
+            }
+            document.body.classList.add('drawer-open');
+        }
+
+        function closeMobileDrawer() {
+            if (mobileDrawer) mobileDrawer.classList.remove('open');
+            if (mobileDrawerBackdrop) mobileDrawerBackdrop.classList.remove('open');
+            if (mobileMenuToggle) {
+                mobileMenuToggle.classList.remove('active');
+                mobileMenuToggle.setAttribute('aria-expanded', 'false');
+            }
+            document.body.classList.remove('drawer-open');
+        }
+
+        if (mobileMenuToggle) {
+            mobileMenuToggle.addEventListener('click', (e) => {
+                e.stopPropagation();
+                if (mobileDrawer && mobileDrawer.classList.contains('open')) {
+                    closeMobileDrawer();
+                } else {
+                    openMobileDrawer();
+                }
+            });
+        }
+
+        if (drawerCloseBtn) {
+            drawerCloseBtn.addEventListener('click', closeMobileDrawer);
+        }
+
+        if (mobileDrawerBackdrop) {
+            mobileDrawerBackdrop.addEventListener('click', closeMobileDrawer);
+        }
+
+        drawerLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                closeMobileDrawer();
+            });
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && mobileDrawer && mobileDrawer.classList.contains('open')) {
+                closeMobileDrawer();
+            }
+        });
+
+        // 7. STICKY HEADER, ACTIVE NAV LINK & DESKTOP NAV GLIDER
+        const siteHeader = document.getElementById('site_header');
+        const backToTopBtn = document.getElementById('backtotop-btn');
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.xtra-nav-menu .nav-link, .xtra-drawer-menu .drawer-link');
+        let isScrollThrottled = false;
+
+        // Desktop Header Nav Glider (Fluid Magnetic Sliding Indicator)
+        const desktopNavMenu = document.getElementById('nav-menu');
+        const headerNavGlider = document.getElementById('header-nav-glider');
+        const desktopNavLinks = desktopNavMenu ? desktopNavMenu.querySelectorAll('.nav-link') : [];
+
+        function updateHeaderNavGlider(targetEl) {
+            if (!desktopNavMenu || !headerNavGlider) return;
+            const activeEl = targetEl || desktopNavMenu.querySelector('.nav-link.active') || desktopNavLinks[0];
+            if (!activeEl) return;
+
+            const menuRect = desktopNavMenu.getBoundingClientRect();
+            const linkRect = activeEl.getBoundingClientRect();
+
+            // Position smoothly below text with 4px side padding
+            const left = (linkRect.left - menuRect.left) - 4;
+            const width = linkRect.width + 8;
+
+            headerNavGlider.style.left = `${left}px`;
+            headerNavGlider.style.width = `${width}px`;
+            headerNavGlider.style.opacity = '1';
+        }
+
+        // Initialize position on load
+        setTimeout(updateHeaderNavGlider, 120);
+
+        // Hover interaction: Glider slides to hovered item smoothly
+        desktopNavLinks.forEach(link => {
+            link.addEventListener('mouseenter', () => {
+                updateHeaderNavGlider(link);
+            });
+            link.addEventListener('click', () => {
+                desktopNavLinks.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+                updateHeaderNavGlider(link);
+            });
+        });
+
+        // Mouse leave: Glider slides back to active section smoothly
+        if (desktopNavMenu) {
+            desktopNavMenu.addEventListener('mouseleave', () => {
+                updateHeaderNavGlider();
+            });
+        }
+
+        window.addEventListener('resize', () => {
+            updateHeaderNavGlider();
+        }, { passive: true });
+
+        window.addEventListener('scroll', () => {
+            if (!isScrollThrottled) {
+                requestAnimationFrame(() => {
+                    const scrollY = window.pageYOffset;
+                    if (siteHeader) siteHeader.classList.toggle('scrolled', scrollY > 40);
+                    if (backToTopBtn) backToTopBtn.classList.toggle('show', scrollY > 380);
+
+                    const scrollPos = scrollY + 160;
+                    let current = 'home';
+                    sections.forEach(sec => {
+                        if (scrollPos >= sec.offsetTop) {
+                            current = sec.getAttribute('id');
+                        }
+                    });
+
+                    // Map sertifikasi section to Experience nav item
+                    let navTarget = current;
+                    if (current === 'sertifikasi') {
+                        navTarget = 'pengalaman';
+                    }
+
+                    navLinks.forEach(link => {
+                        link.classList.toggle('active', link.getAttribute('href') === `#${navTarget}`);
+                    });
+
+                    // Update Desktop Header Nav Glider when scrolling (only if menu is not currently hovered)
+                    if (desktopNavMenu && !desktopNavMenu.matches(':hover')) {
+                        updateHeaderNavGlider();
+                    }
+
+                    isScrollThrottled = false;
+                });
+                isScrollThrottled = true;
+            }
+        }, { passive: true });
+
+        if (backToTopBtn) {
+            backToTopBtn.addEventListener('click', () => {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        }
+
+        // 8. TIMELINE ACCORDION
+        function toggleTimeline(headerElement) {
+            const content = headerElement.parentElement;
+            const isActive = content.classList.contains('active');
+            document.querySelectorAll('.timeline-content').forEach(item => item.classList.remove('active'));
+            if (!isActive) content.classList.add('active');
+        }
+
+        // 9. FADE ON SCROLL INTERSECTION OBSERVER
+        const faders = document.querySelectorAll('.fade-on-scroll');
+        const appearOnScroll = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('appear');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.12, rootMargin: "0px 0px -40px 0px" });
+        faders.forEach(fader => appearOnScroll.observe(fader));
+
+
+        // 11. FORM SUBMISSION (Kirim Langsung ke Dashboard Admin)
+        const contactForm = document.getElementById('contactForm');
+        const formStatus = document.getElementById('form-status');
+        const submitBtn = contactForm ? contactForm.querySelector('button[type="submit"]') : null;
+        const purposeSelect = document.getElementById('purpose');
+
+        if (purposeSelect) {
+            const syncPurposeColor = () => {
+                if (purposeSelect.value) {
+                    purposeSelect.classList.add('has-value');
+                } else {
+                    purposeSelect.classList.remove('has-value');
+                }
+            };
+            purposeSelect.addEventListener('change', syncPurposeColor);
+            syncPurposeColor();
+        }
+
+        if (contactForm && formStatus) {
+            contactForm.addEventListener('submit', async function(e) {
+                e.preventDefault();
+                const nameInput = document.getElementById('name');
+                const emailInput = document.getElementById('email');
+                const waInput = document.getElementById('whatsapp');
+                const messageInput = document.getElementById('message');
+
+                const nameVal = nameInput ? nameInput.value.trim() : '';
+                const emailVal = emailInput ? emailInput.value.trim() : '';
+                const waVal = waInput ? waInput.value.trim() : '';
+                const purposeVal = purposeSelect ? purposeSelect.value.trim() : '';
+                const messageVal = messageInput ? messageInput.value.trim() : '';
+
+                if (!nameVal || !emailVal || !waVal || !purposeVal || !messageVal) {
+                    formStatus.innerHTML = '<i class="fas fa-exclamation-triangle" style="margin-right: 6px;"></i> Mohon lengkapi semua kolom: Nama, Email, WhatsApp, Tujuan, dan Pesan.';
+                    formStatus.style.color = '#ef4444';
+                    formStatus.style.background = 'rgba(239, 68, 68, 0.12)';
+                    formStatus.style.display = 'block';
+                    return;
+                }
+
+                // Loading feedback
+                const origBtnHtml = submitBtn ? submitBtn.innerHTML : 'Kirim Pesan';
+                if (submitBtn) {
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin" style="margin-right: 8px;"></i> Mengirim Pesan...';
+                }
+
+                formStatus.style.display = 'none';
+
+                try {
+                    const formData = new FormData();
+                    formData.append('name', nameVal);
+                    formData.append('email', emailVal);
+                    formData.append('whatsapp', waVal);
+                    formData.append('purpose', purposeVal);
+                    formData.append('message', messageVal);
+
+                    const res = await fetch('fdradmin/api.php?action=send_message', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const result = await res.json();
+
+                    if (result.success) {
+                        formStatus.innerHTML = '<i class="fas fa-check-circle" style="margin-right: 6px;"></i> ' + result.message;
+                        formStatus.style.color = '#10b981';
+                        formStatus.style.background = 'rgba(16, 185, 129, 0.12)';
+                        formStatus.style.display = 'block';
+                        contactForm.reset();
+                        if (purposeSelect) purposeSelect.classList.remove('has-value');
+                    } else {
+                        formStatus.innerHTML = '<i class="fas fa-exclamation-triangle" style="margin-right: 6px;"></i> ' + (result.message || 'Gagal mengirim pesan.');
+                        formStatus.style.color = '#ef4444';
+                        formStatus.style.background = 'rgba(239, 68, 68, 0.12)';
+                        formStatus.style.display = 'block';
+                    }
+                } catch (err) {
+                    // Fallback to mailto jika fetch gagal
+                    const mailSubject = encodeURIComponent(`[${purposeVal}] Pesan dari ${nameVal}`);
+                    const mailBody = encodeURIComponent(`Halo Muh. Fadnur Fajrin,\n\nNama: ${nameVal}\nEmail: ${emailVal}\nWhatsApp: ${waVal}\nTujuan: ${purposeVal}\n\nPesan:\n${messageVal}\n\n---\nDikirim melalui Form Kontak Website`);
+                    const mailtoLink = `mailto:fdrrproject@gmail.com?subject=${mailSubject}&body=${mailBody}`;
+
+                    formStatus.innerHTML = '<i class="fas fa-info-circle" style="margin-right: 6px;"></i> Pesan Anda dialihkan ke aplikasi email (fdrrproject@gmail.com).';
+                    formStatus.style.color = '#3b82f6';
+                    formStatus.style.background = 'rgba(59, 130, 246, 0.12)';
+                    formStatus.style.display = 'block';
+                    window.location.href = mailtoLink;
+                    contactForm.reset();
+                    if (purposeSelect) purposeSelect.classList.remove('has-value');
+                } finally {
+                    if (submitBtn) {
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = origBtnHtml;
+                    }
+                }
+            });
+        }
+
+        // 12. KEAMANAN: MATIKAN AKSES F12 & SHORTCUT DEVTOOLS
+        document.addEventListener('contextmenu', function(e) { e.preventDefault(); });
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'F12' || e.keyCode === 123) { e.preventDefault(); }
+            if (e.ctrlKey && e.shiftKey && (e.key === 'I' || e.key === 'i' || e.key === 'J' || e.key === 'j' || e.key === 'C' || e.key === 'c')) {
+                e.preventDefault();
+            }
+            if (e.ctrlKey && (e.key === 'U' || e.key === 'u')) { e.preventDefault(); }
+        });
+    </script>
+</body>
+</html>

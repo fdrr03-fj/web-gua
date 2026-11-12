@@ -1,0 +1,71 @@
+[
+    {
+        "id": 1,
+        "title": "Prototype Smart Infrared",
+        "subtitle": "Faucet Hardware",
+        "badge": "Hardware IoT / Praktik Lab",
+        "description": "Prototipe sirkuit keran air otomatis nirsentuh berbasis sensor inframerah optik dan solenoid valve 12V.",
+        "full_description": "Smart Infrared Faucet adalah purwarupa perangkat keras keran air otomatis tanpa sentuhan (touchless) yang dirancang untuk mendukung sanitasi higienis dan efisiensi pemakaian air di area fasilitas umum.\r\n\r\nSistem ini mendeteksi keberadaan tangan melalui modul sensor inframerah optik proximity. Sinyal deteksi diproses mikrokontroler untuk memicu modul relay yang mengaktifkan katup solenoid valve 12V DC, sehingga air mengalir secara otomatis dan segera tertutup saat tangan menjauh.",
+        "tech_stack": "Arduino Uno, IR Proximity Sensor, 12V Solenoid Valve, 5V Relay Module, Step-down LM2596, C/C++, Proteus CAD",
+        "video_url": "",
+        "demo_url": "",
+        "github_url": "",
+        "image": "img/project/1793926998_keran_otomatis_3.jpeg",
+        "gallery_images": [
+            "img/project/Prototype keran otomatis.jpeg",
+            "img/project/keran otomatis.jpeg",
+            "img/project/keran otomatis 1.jpeg",
+            "img/project/keran otomatis (2).jpeg",
+            "img/project/prototype-smart-infrared_1793926998_9d1665.jpeg"
+        ],
+        "link": "project-smart-infrared.html",
+        "btn_text": "lihat detail proyek",
+        "is_download": false,
+        "auto_preview": true
+    },
+    {
+        "id": 2,
+        "title": "Pekan Jurnalistik",
+        "subtitle": "POLNES 2026",
+        "badge": "Media & Kepanitiaan Kampus",
+        "description": "Dokumentasi kepanitiaan, desain publikasi media, dan peliputan kegiatan jurnalistik mahasiswa POLNES.",
+        "full_description": "Pekan Jurnalistik POLNES merupakan rangkaian program kerja unggulan UKM Jurnalistik Politeknik Negeri Samarinda yang mencakup kegiatan seminar pers mahasiswa, peliputan musyawarah besar (Mubes), perancangan media publikasi, dan koordinasi sponsorship.\r\n\r\nDokumentasi ini merangkum keterlibatan aktif saya dalam kepanitiaan, desain materi publikasi, koordinasi lapangan, serta peliputan berita langsung kegiatan kampus.",
+        "tech_stack": "Kepanitiaan Acara, Liputan Berita, Dokumentasi Foto, Publikasi Media Kampus",
+        "video_url": "",
+        "demo_url": "",
+        "github_url": "",
+        "image": "img/project/1793931099_Pekan.jpg",
+        "gallery_images": [
+            "img/project/pekan1.jpg",
+            "img/project/Pekan.jpg",
+            "img/project/mubes.jpg",
+            "img/project/mubes1.jpg",
+            "img/project/mubes2.jpg",
+            "img/project/mubes3.jpg"
+        ],
+        "link": "project-pekan-jurnalistik.html",
+        "btn_text": "lihat dokumentasi",
+        "is_download": false,
+        "auto_preview": true
+    },
+    {
+        "id": 3,
+        "title": "Curriculum Vitae",
+        "subtitle": "Profil Mahasiswa",
+        "badge": "Dokumen Akademik",
+        "description": "Dokumen riwayat akademik, keahlian teknis, sertifikasi resmi, dan pengalaman organisasi mahasiswa.",
+        "full_description": "Dokumen resmi Curriculum Vitae (CV) Muh. Fadnur Fajrin, mahasiswa Teknologi Rekayasa Komputer di Politeknik Negeri Samarinda. Berisi rangkuman riwayat studi, sertifikasi Cisco & Google, keahlian teknis, serta pengalaman kepemimpinan di UKM Jurnalistik POLNES.",
+        "tech_stack": "PDF Document, Riwayat Studi, Sertifikasi Resmi",
+        "video_url": "",
+        "demo_url": "",
+        "github_url": "",
+        "image": "img/gue.png",
+        "gallery_images": [
+            "img/gue.png"
+        ],
+        "link": "CV.pdf",
+        "btn_text": "unduh cv (pdf)",
+        "is_download": true,
+        "auto_preview": false
+    }
+]

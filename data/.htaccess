@@ -1,0 +1,3 @@
+# Prevent listing and direct sensitive access
+Options -Indexes
+
